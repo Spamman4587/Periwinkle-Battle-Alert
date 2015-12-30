@@ -88,7 +88,7 @@ def getUsersFromList(thread_id, troopList=[]):
                 replied = already_replied(signUp)
                 print(replied)
                 if not replied:
-                    signUp.reply("ADDED TO DATABASE")
+                    signUp.reply("AFFIRMATIVE, ADDED TO DATABASE... MESSAGE FOR NEW PLAYER: Read [the wiki](http://www.reddit.com/r/periwinkle/wiki/the_battle_system) If you're new to the battle system. Also join us in our [Combined Chat!]( https://discord.gg/0aCQScFk3twVkh3g) and read up on advanced tactics at the [New Cerulean Military Academy!](http://www.reddit.com/r/ncma)")
                     print("replied!")
         except:
             log.write("ERROR:"+"\n")
